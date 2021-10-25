@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        h1 {
+        header {
             background: beige;
             padding: 2em;
             text-align: center;
@@ -15,6 +15,26 @@
     </style>
 </head>
 <body>
-<h1><?=$greeting;?></h1>
+    <header>
+        <h1><?=$greeting;?></h1>
+
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Completed</th>
+            </tr>
+
+            <?php foreach ($tasks as $task): ?>
+                <tr>
+                    <td><?=$task->id;?></td>
+                    <td><?=$task->title;?></td>
+                    <td><?=$task->description;?></td>
+                    <td><?=$task->completed;?></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </header>
 </body>
 </html>
