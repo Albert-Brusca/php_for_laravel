@@ -1,6 +1,9 @@
 <?php
 
-namespace framework\Database
+namespace Framework\Database;
+
+use PDO;
+
 class Connection
 {
     private $config;
