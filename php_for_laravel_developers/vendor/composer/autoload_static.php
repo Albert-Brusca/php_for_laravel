@@ -12,6 +12,7 @@ class ComposerStaticInit06cfcb7e9e625e8925451979c174a784
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit06cfcb7e9e625e8925451979c174a784' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Framework\\App' => __DIR__ . '/../..' . '/framework/App.php',
         'Framework\\Database\\Connection' => __DIR__ . '/../..' . '/framework/Database/Connection.php',
         'Framework\\Database\\Database' => __DIR__ . '/../..' . '/framework/Database/Database.php',
     );
