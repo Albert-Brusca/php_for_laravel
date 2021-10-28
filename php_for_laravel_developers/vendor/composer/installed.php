@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '88b95b5d03f859a8e42518901eb57c4cb363aa22',
+        'reference' => '379b650d9cede116f27ac7edc730c462fd2d4f5c',
         'name' => 'albert/php_for_laravel_developers',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '88b95b5d03f859a8e42518901eb57c4cb363aa22',
+            'reference' => '379b650d9cede116f27ac7edc730c462fd2d4f5c',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
