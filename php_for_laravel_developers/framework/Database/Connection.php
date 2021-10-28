@@ -18,8 +18,6 @@ class Connection
 
     public static function make($config)
     {
-
-        static::$config = $config;
         try {
             return new PDO(
                 $config['databasetype'] . ':host=' . $config['host'] . ';dbname=' . $config['name'],
