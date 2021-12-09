@@ -56,6 +56,7 @@ return array(
     'Framework\\App' => $baseDir . '/framework/App.php',
     'Framework\\Database\\Connection' => $baseDir . '/framework/Database/Connection.php',
     'Framework\\Database\\Database' => $baseDir . '/framework/Database/Database.php',
+    'Framework\\Route' => $baseDir . '/framework/Route.php',
     'GrahamCampbell\\ResultType\\Error' => $vendorDir . '/graham-campbell/result-type/src/Error.php',
     'GrahamCampbell\\ResultType\\Result' => $vendorDir . '/graham-campbell/result-type/src/Result.php',
     'GrahamCampbell\\ResultType\\Success' => $vendorDir . '/graham-campbell/result-type/src/Success.php',

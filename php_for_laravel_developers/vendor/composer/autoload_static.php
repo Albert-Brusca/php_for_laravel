@@ -112,6 +112,7 @@ class ComposerStaticInit06cfcb7e9e625e8925451979c174a784
         'Framework\\App' => __DIR__ . '/../..' . '/framework/App.php',
         'Framework\\Database\\Connection' => __DIR__ . '/../..' . '/framework/Database/Connection.php',
         'Framework\\Database\\Database' => __DIR__ . '/../..' . '/framework/Database/Database.php',
+        'Framework\\Route' => __DIR__ . '/../..' . '/framework/Route.php',
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
         'GrahamCampbell\\ResultType\\Result' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Result.php',
         'GrahamCampbell\\ResultType\\Success' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Success.php',
