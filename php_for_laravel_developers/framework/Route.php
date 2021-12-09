@@ -27,7 +27,7 @@ class Route
             return $this;
         }
         if (!file_exists($this->routes[$uri])) {
-            dd("No s'ha trobat el controlador:" . $this->routes[$uri]);
+            dd("NO s'ha trobat el controlador:" . $this->routes[$uri]);
         }
         require $this->routes[$uri];
         return $this;

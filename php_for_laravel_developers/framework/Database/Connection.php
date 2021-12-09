@@ -14,6 +14,7 @@ class Connection
                 $config['user'],
                 $config['password']);
         } catch (\Exception $e) {
+            dd($e);
             echo 'Error de connexió a la base de dades';
         }
     }
